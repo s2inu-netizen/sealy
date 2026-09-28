@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+
+html{
+  font-size: 10px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+address, em{
+  font-style: normal;
+}
+
+legend{
+  display: none;
+}
+
+input, select, fieldset, button{
+  border: 0;
+  vertical-align: top;
+  outline: none;
+}
+
+img{
+  vertical-align: top;
+  border: 0;
+}
+
+/* img - 구버전 IE에서 선을 가지고 있음 */
